@@ -32,3 +32,6 @@ invokeInventoryAction("Gas mask", inventory.remove);
 // Removing Gas mask from inventory
 
 console.log(inventory.items); // ['Knife', 'Medkit']
+
+invokeInventoryAction("Dart Vader", inventory.add);
+console.log(inventory.items);
